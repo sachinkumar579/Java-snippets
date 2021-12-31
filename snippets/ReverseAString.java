@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/reverse-string/
 
-class Solution {
+public class Solution {
     public void reverseString(char[] str) {
         for(int i=0;i<str.length/2;i++){
             char t = str[str.length-1-i];
