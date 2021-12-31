@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/reverse-integer/
 
-public class Solution {
+public class ReverseAnInteger {
 public int reverse(int x) {
           int rev = 0;
           int rem = 0;
