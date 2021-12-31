@@ -10,7 +10,7 @@ public class CountTriplets {
 		long ratio = 3;
 		int[] nterms = new int[arr.length];
 		int counter = 0;
-        int finalCount =0;
+                int finalCount =0;
 		
 		for (int i = 0; i < arr.length; i++) {
 			number = arr[i];
