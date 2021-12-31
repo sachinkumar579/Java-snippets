@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class JavaAnagrams {
+public class Anagrams {
 
     static boolean isAnagram(String a, String b) {
    
