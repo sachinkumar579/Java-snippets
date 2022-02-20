@@ -22,6 +22,7 @@ public class App {
 // in Object class too . So check if class = App and return true 
 // peek(method->System.out.println(method.getName())) - peek()‘s Javadoc page says: “This method exists mainly to support debugging,
 // where you want to see the elements as they flow past a certain point in a pipeline“. This is an intermediate operation . 
+// Using Stream.peek() without any terminal operation does nothing.
 // collect(Collectors.toList()) - for peek method to work we should apply a terminal operation . Returns a list with App class method names 
 // The result isn't stored anywhere in the code here , but it is added to run the code supplied in peek method . Removing collect method will not run the code in peek method 
 
